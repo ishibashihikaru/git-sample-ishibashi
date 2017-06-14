@@ -10,6 +10,15 @@ public class Car {
 	
 	private int tire;
 	
+	private String strTire;
+	
+	
+	public String getStrTire() {
+		return strTire;
+	}
+	public void setStrTire(String strTire) {
+		this.strTire = strTire;
+	}
 	public int getSpeed() {
 		return speed;
 	}
