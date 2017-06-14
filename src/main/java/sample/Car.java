@@ -8,6 +8,17 @@ public class Car {
 	/** ガソリン */
 	private int gas;
 	
+	private int tire;
+	
+	private String strTire;
+	
+	
+	public String getStrTire() {
+		return strTire;
+	}
+	public void setStrTire(String strTire) {
+		this.strTire = strTire;
+	}
 	public int getSpeed() {
 		return speed;
 	}
@@ -19,6 +30,12 @@ public class Car {
 	}
 	public void setGas(int gas) {
 		this.gas = gas;
+	}
+	public int getTire() {
+		return tire;
+	}
+	public void setTire(int tire) {
+		this.tire = tire;
 	}
 	
 	
