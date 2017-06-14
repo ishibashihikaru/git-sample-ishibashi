@@ -8,6 +8,8 @@ public class Car {
 	/** ガソリン */
 	private int gas;
 	
+	private int tire;
+	
 	public int getSpeed() {
 		return speed;
 	}
@@ -19,6 +21,12 @@ public class Car {
 	}
 	public void setGas(int gas) {
 		this.gas = gas;
+	}
+	public int getTire() {
+		return tire;
+	}
+	public void setTire(int tire) {
+		this.tire = tire;
 	}
 	
 	
